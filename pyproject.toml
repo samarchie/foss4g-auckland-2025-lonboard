@@ -12,4 +12,5 @@ dependencies = [
     "matplotlib>=3.10.7",
     "palettable>=3.3.3",
     "pyarrow>=22.0.0",
+    "sidecar>=0.8.0",
 ]

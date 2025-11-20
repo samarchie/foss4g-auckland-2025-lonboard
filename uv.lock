@@ -872,6 +872,7 @@ dependencies = [
     { name = "matplotlib" },
     { name = "palettable" },
     { name = "pyarrow" },
+    { name = "sidecar" },
 ]
 
 [package.metadata]
@@ -883,6 +884,7 @@ requires-dist = [
     { name = "matplotlib", specifier = ">=3.10.7" },
     { name = "palettable", specifier = ">=3.3.3" },
     { name = "pyarrow", specifier = ">=22.0.0" },
+    { name = "sidecar", specifier = ">=0.8.0" },
 ]
 
 [[package]]
@@ -2931,6 +2933,18 @@ wheels = [
     { url = "https://files.pythonhosted.org/packages/7c/75/c24ed871c576d7e2b64b04b1fe3d075157f6eb54e59670d3f5ffb36e25c7/shapely-2.1.2-cp314-cp314t-musllinux_1_2_x86_64.whl", hash = "sha256:361b6d45030b4ac64ddd0a26046906c8202eb60d0f9f53085f5179f1d23021a0", size = 4169511, upload-time = "2025-09-24T13:51:36.297Z" },
     { url = "https://files.pythonhosted.org/packages/b1/f7/b3d1d6d18ebf55236eec1c681ce5e665742aab3c0b7b232720a7d43df7b6/shapely-2.1.2-cp314-cp314t-win32.whl", hash = "sha256:b54df60f1fbdecc8ebc2c5b11870461a6417b3d617f555e5033f1505d36e5735", size = 1602607, upload-time = "2025-09-24T13:51:37.757Z" },
     { url = "https://files.pythonhosted.org/packages/9a/f6/f09272a71976dfc138129b8faf435d064a811ae2f708cb147dccdf7aacdb/shapely-2.1.2-cp314-cp314t-win_amd64.whl", hash = "sha256:0036ac886e0923417932c2e6369b6c52e38e0ff5d9120b90eef5cd9a5fc5cae9", size = 1796682, upload-time = "2025-09-24T13:51:39.233Z" },
+]
+
+[[package]]
+name = "sidecar"
+version = "0.8.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "ipywidgets" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/93/69/a00a922a7505665813c26722db3ddc67a3e4d6d5c726f3288327ca3aab4f/sidecar-0.8.0.tar.gz", hash = "sha256:982f051d3ecc8e84f9e16a244d566f931924a226043df5c0650319e959e29158", size = 21846196, upload-time = "2025-09-26T07:46:29.805Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/c3/16/469bf3ccb78e6d5e5e2cdf1ab10e7640b5484f8612ba035387a51c9e1ff6/sidecar-0.8.0-py3-none-any.whl", hash = "sha256:8fa8f46478f827db33c7ba4ad65cc11c9cbdea4a1fd55c1bdfd76c9f08e87a68", size = 18569, upload-time = "2025-09-26T07:46:28.457Z" },
 ]
 
 [[package]]
